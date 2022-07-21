@@ -35,6 +35,13 @@ function getArgs(args) {
 exports.speak = function(args) {
     args = getArgs(args);
 
+    if(args.length === 0) {
+        return Promise.reject(ERR_INVALID_OPTIONS);   
+    }
+    else {
+        args = args[0];
+    }
+
     let text;
     let locale;
     let rate;
