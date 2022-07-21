@@ -5,6 +5,7 @@
 iOS 7+  
 Windows Phone 8  
 Android 4.0.3+ (API Level 15+)
+Electron (cordova-electron 3.0+)
 
 ## Installation
 

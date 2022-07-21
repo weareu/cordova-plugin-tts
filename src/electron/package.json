@@ -1,0 +1,11 @@
+{
+    "name": "cordova-plugin-tts",
+    "main": "./TTS.js",
+    "cordova": {
+        "id": "cordova-plugin-tts",
+        "serviceName": "TTS"
+    },
+    "dependencies": {
+        "say": "^0.16.0"
+    }
+}
