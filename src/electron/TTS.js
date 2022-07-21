@@ -11,6 +11,11 @@
 */
 'use strict';
 
+const ERR_INVALID_OPTIONS = "ERR_INVALID_OPTIONS";
+const ERR_NOT_INITIALIZED = "ERR_NOT_INITIALIZED";
+const ERR_ERROR_INITIALIZING = "ERR_ERROR_INITIALIZING";
+const ERR_UNKNOWN = "ERR_UNKNOWN";
+
 const Say = require('say').Say
 // automatically pick platform
 const say = new Say('darwin');
