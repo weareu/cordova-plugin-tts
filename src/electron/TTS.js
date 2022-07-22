@@ -18,7 +18,7 @@ const ERR_UNKNOWN = "ERR_UNKNOWN";
 
 const Say = require('say').Say
 // automatically pick platform
-const say = new Say('darwin');
+const say = new Say();
 
 //Fix Cordova Electron 3.0 Args Bug. Electron context bridge uses ... for receiving args. This causes
 //args to be nested in another array when sent, this is not like other platform args and makes plugin compatibility hard. 
