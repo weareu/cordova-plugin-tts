@@ -43,7 +43,8 @@
     NSString* locale = [options objectForKey:@"locale"];
     double rate = [[options objectForKey:@"rate"] doubleValue];
     NSString* category = [options objectForKey:@"category"];
-    
+    double pitch = [[options objectForKey:@"pitch"] doubleValue];
+
     [[AVAudioSession sharedInstance] setActive:NO withOptions:0 error:nil];
     if ([category isEqualToString:@"ambient"]) {
         [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient
