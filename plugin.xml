@@ -58,6 +58,7 @@
 
   <!-- electron -->
   <platform name="electron">
+    <source-file src="src/electron/TTS.js" target-dir="src/electron" />
     <framework src="./src/electron" />
   </platform>
 </plugin>
